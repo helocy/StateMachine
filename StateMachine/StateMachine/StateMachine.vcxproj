@@ -146,6 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="EventQueue.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="StateMachineTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventQueue.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="StateMachineTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
